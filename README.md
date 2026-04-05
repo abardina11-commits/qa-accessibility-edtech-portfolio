@@ -2,7 +2,7 @@
 
 **QA Engineer | Accessibility Testing Specialist**  
 📍 Саранск   
-📧 [nastasya.sor@mail.ru] | 💼 [HH.ru (https://hh.ru/applicant/resumes)] | ✈️ [@AnastasiaBardina]
+📧 [nastasya.sor@mail.ru] | 💼 [HH.ru (https://hh.ru/resume/2c292738ff10359beb0039ed1f64394c79307a)] | ✈️ [@AnastasiaBardina]
 
 ---
 
