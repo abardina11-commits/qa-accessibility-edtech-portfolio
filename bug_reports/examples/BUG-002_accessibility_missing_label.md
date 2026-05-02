@@ -86,7 +86,7 @@ WCAG 2.1 — уровень A
 ```html
 <input type="email" placeholder="Email">
 
-## **Корректный вариант**
+## Корректный вариант
 
 <label for="email">Email</label>
 <input id="email" type="email">
