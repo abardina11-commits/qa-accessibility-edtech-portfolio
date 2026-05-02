@@ -85,3 +85,10 @@ WCAG 2.1 — уровень A
 Пример проблемы:
 ```html
 <input type="email" placeholder="Email">
+
+## Корректный вариант**Это жирный текст**
+
+<label for="email">Email</label>
+<input id="email" type="email">
+или
+<input type="email" aria-label="Email">
