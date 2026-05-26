@@ -48,4 +48,4 @@ High
 Accessibility / Keyboard Navigation
 
 ## Связь с задачей Jira
-EAQ-11
+EAQ-18 (проверка фокуса / клавиатура)

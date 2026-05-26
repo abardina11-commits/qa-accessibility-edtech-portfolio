@@ -53,4 +53,4 @@ Functional / Usability
 - TC-EAQ-001-01 (Login)
 
 ## Связь с задачей Jira
-EAQ-6
+EAQ-7

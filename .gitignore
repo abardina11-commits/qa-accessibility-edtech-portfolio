@@ -22,4 +22,7 @@ Thumbs.db
 *.tmp
 .allure/
 coverage/
- 
+
+# Selenium drivers
+geckodriver.exe
+chromedriver.exe

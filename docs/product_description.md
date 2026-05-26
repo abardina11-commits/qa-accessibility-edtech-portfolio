@@ -130,3 +130,14 @@
 
 ➕ Customer journey (очень простой)
 
+## 13. Связь с задачами Jira (актуальная нумерация)
+
+| Эпик | Задачи |
+|------|--------|
+| EAQ-1 (EPIC 1: Foundation) | EAQ-2, EAQ-3, EAQ-4, EAQ-5 |
+| EAQ-6 (EPIC 2: Manual Testing) | EAQ-7, EAQ-8, EAQ-9, EAQ-10, EAQ-11, EAQ-12, EAQ-13, EAQ-14 |
+| EAQ-15 (EPIC 3: Accessibility Audit) | EAQ-16, EAQ-17, EAQ-18, EAQ-19, EAQ-20, EAQ-21 |
+| EAQ-22 (EPIC 4: API Testing) | EAQ-23, EAQ-24, EAQ-25, EAQ-26, EAQ-27 |
+| EAQ-29 (EPIC 5: Automation) | EAQ-30, EAQ-31, EAQ-32, EAQ-33, EAQ-34, EAQ-35, EAQ-37 |
+| EAQ-38 (EPIC 6: Documentation) | EAQ-39, EAQ-40, EAQ-41, EAQ-42 |
+

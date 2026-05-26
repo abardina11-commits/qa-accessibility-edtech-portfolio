@@ -60,41 +60,50 @@ qa-accessibility-edtech-portfolio/
 ├── LICENSE
 │
 ├── accessibility/
-│ ├── checklists/
-│ │ └── wcag21_level_AA.md
-│ └── reports/
-│ └── lighthouse_homepage_2026-04-05.html
+│   ├── checklists/
+│   │   └── wcag21_checklist.md
+│   └── reports/
+│       └── lighthouse_homepage_2026-04-05.html
 │
 ├── assets/
-│ ├── reports/
-│ └── screenshots/
+│   ├── reports/
+│   └── screenshots/
 │
 ├── bug_reports/
-│ ├── examples/
-│ │ └── bug_001_no_focus_visible.md
-│ └── templates/
-│ ├── bug-report_invalid-characters_template.xltx
-│ ├── negative-test_illegal-chars_template.xltx
-│ └── template_input-validation_special-symbols.xltx
+│   ├── active/
+│   │   ├── BUG-001_login_trim.md
+│   │   ├── BUG-002_accessibility_missing_label.md
+│   │   ├── BUG-003_low_contrast.md
+│   │   └── BUG-004_no_focus_visible.md
+│   └── templates/
 │
 ├── docs/
-│ ├── requirements/
-│ │ └── wcag21_checklist.md
-│ ├── user_stories/
-│ ├── product_description.md
-│ ├── test_design_techniques.md
-│ ├── test_environment_setup.md
-│ └── test_strategy.md
+│   ├── requirements/
+│   │   └── wcag21_checklist.md
+│   ├── user_stories/
+│   │   ├── EAQ-007_login.md
+│   │   ├── EAQ-008_registration.md
+│   │   └── EAQ-009_catalog.md
+│   ├── product_description.md
+│   ├── test_design_techniques.md
+│   ├── test_environment_setup.md
+│   └── test_strategy.md
 │
 ├── tests/
-│ ├── api/
-│ └── manual/
+│   ├── api/
+│   └── manual/
+│       ├── EAQ-007_Login/
+│       │   ├── TC-01_valid_login.md
+│       │   ├── TC-02_invalid_password.md
+│       │   └── TC-03_empty_fields.md
+│       └── EAQ-011_Keyboard_Navigation/
+│           └── TC-01_keyboard_navigation.md
 │
 └── tools/
-├── bug_report_template.md
-├── estimation_examples.md
-├── pairwise_test_generator.md
-└── test_case_template.md
+    ├── bug_report_template.md
+    ├── estimation_examples.md
+    ├── pairwise_test_generator.md
+    └── test_case_template.md
 ```
 
 ## Быстрый доступ

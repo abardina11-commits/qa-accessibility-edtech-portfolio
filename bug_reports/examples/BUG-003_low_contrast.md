@@ -45,4 +45,4 @@ Medium
 Accessibility / Visual
 
 ## Связь с задачей Jira
-EAQ-16
+EAQ-19 (проверка контрастности)
