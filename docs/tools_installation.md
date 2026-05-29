@@ -47,4 +47,5 @@ Lighthouse не требует установки, так как встроен 
 
 **Дата установки:** 2026-05-29  
 **Установщик:** Анастасия Бардина
-EAQ-4: add tools installation guide and screenshots
+
+## EAQ-4: add tools installation guide and screenshots
