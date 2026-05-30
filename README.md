@@ -171,7 +171,6 @@ qa-accessibility-edtech-portfolio/
 | **Тест-дизайн** | ![ChatGPT](https://shields.io) ![Claude](https://shields.io) | Ускорение создания тест-кейсов на 35% |
 | **Автоматизация** | ![GitHub Copilot](https://shields.io) ![Tabnine](https://shields.io) | Сокращение времени на написание кода тестов |
 | **Анализ логов** | ![Sentry](https://shields.io) ![ReportPortal](https://shields.io) | Авто-категоризация упавших тестов (ML) |
-
 ---
 
 ## Контакты
