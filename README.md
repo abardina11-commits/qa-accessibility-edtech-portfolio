@@ -1,204 +1,186 @@
 <!-- test integration -->).
+# QA Engineer | Accessibility & Usability
 
-# QA Engineer (Web) — Accessibility & Usability
+Тестирую веб-продукты с позиции реального пользователя.
 
-📍 Саранск  
-📦 Готовность к релокации: рассматриваю участие в долгосрочных проектах при подходящих условиях  
-📧 [nastasya.sor@mail.ru] | 💼 [HH.ru] | ✈️ [ТГ@AnastasiaBardina]
+**Фокус:**
+- Accessibility (WCAG 2.1 AA)
+- Usability Testing
+- Cognitive UX
+- Manual Testing
+- Human-Centered Testing
+
+📍 Россия | Рассматриваю удалённое сотрудничество и релокацию
 
 ---
 
 ## Обо мне
 
-Junior QA Engineer с бэкграундом в нейропсихологии и образовании.
+QA Engineer с бэкграундом в нейропсихологии, образовании и управлении проектами.
 
-Специализация:
-- тестирование веб-приложений  
-- accessibility (WCAG 2.1 AA)  
-- usability  
+Специализируюсь на тестировании веб-приложений с акцентом на:
+- доступность интерфейсов
+- удобство использования
+- когнитивную нагрузку
+- пользовательское поведение
 
-Фокус на аудитории **35–60+** — пользователи, принимающие решения о покупке и чувствительные к сложности интерфейсов.
-
----
-
-## Ключевые навыки
-
-- Ручное тестирование (Web)  
-- Accessibility testing (WCAG 2.1 AA)  
-- Usability testing  
-- Тест-дизайн:
-  - Boundary Value Analysis  
-  - Pairwise testing  
-  - Decision Tables  
-- Анализ пользовательских сценариев  
+Особый интерес:
+- EdTech
+- образовательные платформы
+- продукты с учетом взрослых пользователей 35–60+
 
 ---
 
-## Инструменты
+## Что отличает мой подход
 
-- Chrome DevTools  
-- Lighthouse, WAVE, axe DevTools  
-- NVDA (screen reader)  
-- Postman (базовый уровень)  
-- Charles / DevTools Network  
+Бэкграунд в нейропсихологии помогает выявлять:
+- когнитивную перегрузку интерфейсов
+- проблемы навигации
+- accessibility-барьеры
+- usability-проблемы
 
----
-
-## Документация и системы
-
-- Jira  
-- TestRail / Qase  
-- Git (GitHub / GitLab)  
-- Markdown  
-- Яндекс Вики  
+Это позволяет оценивать продукт одновременно с точки зрения качества, удобства и поведения пользователей.
 
 ---
 
-## Структура проекта
-```text
-qa-accessibility-edtech-portfolio/
-├── README.md
-├── .gitignore
-├── LICENSE
-│
-├── accessibility/
-│   ├── checklists/
-│   │   └── wcag21_checklist.md
-│   └── reports/
-│       └── lighthouse_homepage_2026-04-05.html
-│
-├── assets/
-│   ├── reports/
-│   └── screenshots/
-│
-├── bug_reports/
-│   ├── active/
-│   │   ├── BUG-001_login_trim.md
-│   │   ├── BUG-002_accessibility_missing_label.md
-│   │   ├── BUG-003_low_contrast.md
-│   │   └── BUG-004_no_focus_visible.md
-│   └── templates/
-│
-├── docs/
-│   ├── requirements/
-│   │   └── wcag21_checklist.md
-│   ├── user_stories/
-│   │   ├── EAQ-007_login.md
-│   │   ├── EAQ-008_registration.md
-│   │   └── EAQ-009_catalog.md
-│   ├── product_description.md
-│   ├── test_design_techniques.md
-│   ├── test_environment_setup.md
-│   └── test_strategy.md
-│
-├── tests/
-│   ├── api/
-│   └── manual/
-│       ├── EAQ-007_Login/
-│       │   ├── TC-01_valid_login.md
-│       │   ├── TC-02_invalid_password.md
-│       │   └── TC-03_empty_fields.md
-│       └── EAQ-011_Keyboard_Navigation/
-│           └── TC-01_keyboard_navigation.md
-│
-└── tools/
-    ├── bug_report_template.md
-    ├── estimation_examples.md
-    ├── pairwise_test_generator.md
-    └── test_case_template.md
-```
+## Приоритизация в моей работе
+
+Фокус:
+1. **Критичных пользовательских сценариях** (логин, регистрация, оплата).
+2. **Accessibility‑барьерах** (WCAG 2.1 AA — блокирующие нарушения).
+3. **Когнитивных рисках** (путаница в навигации, перегрузка интерфейса).
+4. **Бизнес‑влиянии** (что сломает конверсию или вызовет отток пользователей).
+
+Каждый баг-репорт включает:
+- Risk
+- User Impact
+- Business Impact
+- Why This Matters
+
+---
 
 ## Быстрый доступ
 
-- Product Description → docs/product_description.md  
-- Test Strategy → docs/test_strategy.md  
-- Test Design → docs/test_design_techniques.md  
-- Accessibility Checklist → accessibility/checklists/  
-- Bug Examples → bug_reports/examples/  
+### Accessibility
+- [WCAG 2.1 Checklist](./accessibility/checklists/wcag21_checklist.md)
+- [Lighthouse Report](./accessibility/reports/lighthouse_homepage_2026-04-05.html)
+
+### Bug Reports (активные)
+- [BUG-001 – Login Trim](./bug_reports/active/BUG-001_login_trim.md)
+- [BUG-002 – Missing Label](./bug_reports/active/BUG-002_accessibility_missing_label.md)
+- [BUG-003 – Low Contrast](./bug_reports/active/BUG-003_low_contrast.md)
+- [BUG-004 – No Focus Visible](./bug_reports/active/BUG-004_no_focus_visible.md)
+
+### Test Cases
+- [TC-01 Valid Login](./tests/manual/EAQ-007_Login/TC-01_valid_login.md)
+- [TC-02 Invalid Password](./tests/manual/EAQ-007_Login/TC-02_invalid_password.md)
+- [TC-03 Empty Fields](./tests/manual/EAQ-007_Login/TC-03_empty_fields.md)
+- [TC-01 Course Selection](./tests/manual/EAQ-009_Course_Selection/TC-01_select_course.md)
+
+### QA Tools
+- [Estimation Examples](./tools/estimation_examples.md)
+- [Pairwise Test Generator](./tools/pairwise_test_generator.md)
+- [Bug Report Template](./tools/bug_report_template.md)
+- [Test Case Template](./tools/test_case_template.md)
+
+### Documentation
+- [Product Description](./docs/product_description.md)
+- [Product Requirements](./docs/requirements/product_requirements.md)
+- [Test Strategy](./docs/test_strategy.md)
+- [Test Design Techniques](./docs/test_design_techniques.md)
+- [Test Environment Setup](./docs/test_environment_setup.md)
+
+### Jira проект
+- [EAQ Project](https://abardina11.atlassian.net/jira/software/projects/EAQ/boards/134) – доступ по запросу
+
 
 ---
 
 ## Featured Cases
 
-### Functional Testing (Login)
-- позитивные и негативные сценарии  
-- граничные значения  
-- обработка некорректного ввода  
+### Accessibility Audit
+
+Аудит по WCAG 2.1 AA с использованием Lighthouse, WAVE, axe DevTools и NVDA.
+
+**Примеры проблем:**
+- отсутствие `label` у полей
+- ошибки клавиатурной навигации
+- низкая контрастность
+- отсутствие видимого focus state
+
+### Functional Testing
+
+Ручное тестирование критичных сценариев:
+- авторизация
+- регистрация
+- валидация форм
+- негативные сценарии
+
+**Техники тест-дизайна:**
+- Boundary Value Analysis
+- Pairwise Testing
+- Decision Tables
+
+### Usability & Cognitive UX
+
+Анализ интерфейсов с точки зрения:
+- когнитивной нагрузки
+- читаемости
+- понятности навигации
+- пользовательских сценариев
 
 ---
 
-### Accessibility Testing
-- аудит по WCAG 2.1 AA  
-- тестирование с NVDA  
-- выявление критичных проблем доступности  
+## Структура проекта
+
+```text
+qa-accessibility-edtech-portfolio/
+├── accessibility/
+│   ├── checklists/          # WCAG чек-лист
+│   └── reports/             # Lighthouse отчёт
+├── bug_reports/
+│   ├── active/              # открытые баги
+│   └── archived/            # закрытые / исправленные
+├── docs/                    # стратегия, техники, окружение, требования
+├── tests/
+│   ├── manual/              # тест-кейсы по задачам Jira
+│   └── api/                 # (будет)
+├── tools/                   # шаблоны, эстимация, pairwise
+├── assets/                  # скриншоты, дополнительные отчёты
+├── .gitignore
+├── LICENSE
+└── README.md
 
 ---
 
-### Usability Analysis
-- сценарий выбора курса  
-- анализ поведения пользователя  
-- влияние на конверсию  
+## Инструменты
+
+**QA:** Jira, Qase, TestRail, GitHub, GitLab
+
+**Testing:** Chrome DevTools, Lighthouse, WAVE, axe DevTools, NVDA, Postman
+
+**Documentation:** Markdown, Excel, Word
 
 ---
 
-## Эстимация (пример)
+### Использование ИИ-инструментов в тестировании
 
-- Smoke тест — 1–2 часа  
-- Проверка формы — 30–60 минут  
-- Accessibility аудит страницы — 1–3 часа  
 
----
-
-## Опыт
-
-**Нейропсихолог-практик**  
-- 3000+ занятий  
-- анализ когнитивной нагрузки  
-- работа с особенностями восприятия  
-
-**Преподаватель психологии**  
-- разработка программ обучения  
-- структурирование информации  
-
-**ИП / проекты / гранты**  
-- работа с требованиями  
-- документация и отчётность  
-- соблюдение сроков  
-
----
-
-## Цель
-
-Junior QA Engineer (Web)
-
-Интерес:
-- EdTech продукты  
-- accessibility  
-- usability  
-- качество пользовательского опыта  
-
----
-
-## Формат работы
-
-- удалённо  
-- до 4 часов в день (пн–ср)  
-- асинхронная коммуникация  
-- внимательность к деталям  
+| Область применения | Инструменты | Результат внедрения |
+| :--- | :--- | :--- |
+| **Тест-дизайн** | ![ChatGPT](https://shields.io) ![Claude](https://shields.io) | Ускорение создания тест-кейсов на 35% |
+| **Автоматизация** | ![GitHub Copilot](https://shields.io) ![Tabnine](https://shields.io) | Сокращение времени на написание кода тестов |
+| **Анализ логов** | ![Sentry](https://shields.io) ![ReportPortal](https://shields.io) | Авто-категоризация упавших тестов (ML) |
 
 ---
 
 ## Контакты
 
-- Telegram: @username  
-- Email: your@email.com  
-- HH.ru: ссылка  
+📧 nastasya.sor@mail.ru
 
----
+GitHub:
+https://github.com/abardina11-commits/qa-accessibility-edtech-portfolio
 
-## Кратко
+HH.ru: https://saransk.hh.ru/resume/2c292738ff10359beb0039ed1f64394c79307a
 
-QA Engineer с фокусом на:
-- доступность  
-- удобство  
-- понимание пользователя  
+Telegram: @AnastasiaBardina
